@@ -16,6 +16,8 @@ export const doReset = (): CounterAction => ({
     type: 'resetear'
 })
 
+//ponemos los parentesis para indicar que devuelve un objeto
 export const doIncreaseBy = (value:number):CounterAction => ({
-    type: 'increaseBy', payload: {value}
+    type: 'increaseBy', 
+    payload: {value}
 })
